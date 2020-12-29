@@ -3,20 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test;
+package pagereplacment;
 
 import java.util.Scanner;
 
 /**
  *
- * @author Philip George
+ * @author Seif
  */
 public class Test {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[])
+   public static void main(String args[])
    {
        int num=7;
        while(num!=0){

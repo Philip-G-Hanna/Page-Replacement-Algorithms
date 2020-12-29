@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package test;
-
-/**
- *
- * @author Philip George
- */
+package pagereplacment;
+import java.util.Scanner;
 public class FiFoAlgo {
     void fifo(int Size_Of_Reference,int Size_Of_Frame,int The_Reference_Input[]) {
          int PageFault_Number_Of_Occur=0;
@@ -34,14 +25,9 @@ public class FiFoAlgo {
           System.out.println(" Miss Happened to Find Page "+The_Reference_Input[The_First_Loop]);
           System.out.println();
           System.out.println(" Page "+The_Reference_Input[The_First_Loop]+  " Replaced Page "+The_SubArray_Of_Reference[count]);
-
-         
          The_SubArray_Of_Reference[count]=The_Reference_Input[The_First_Loop];
-
          count++;
-
          if(count>=Size_Of_Frame)
-         
              count=0;
              PageFault_Number_Of_Occur+=1;
          System.out.println();
