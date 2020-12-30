@@ -1,4 +1,4 @@
-package pagereplacment;
+package test;
 import java.util.Scanner;
 public class FiFoAlgo {
     void fifo(int Size_Of_Reference,int Size_Of_Frame,int The_Reference_Input[]) {
